@@ -1,4 +1,15 @@
 ---
 label: DO360
 hide_body: true
-fields: []
+fields:
+- name: post_list
+  type: blocks
+  template_types: []
+  config:
+    min: 1
+    max: 
+  label: Post List
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
